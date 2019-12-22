@@ -10,6 +10,8 @@
 
 <string name="errorLogin">Usuario y/o password incorrecto(s).</string>
 <string name="errorRegistro">Los campos no puede estar vacios.</string>
+<string name="errorVacio">Escribe un mensaje</string>  
+  
 <string name="Login">Inicio Sesión</string>
 <string name="txtRegistrar1">       ¿No tienes una cuenta?</string>
 <string name="txtRegistrar2">Entonces registrate pulsando el siguiente botón.</string>
