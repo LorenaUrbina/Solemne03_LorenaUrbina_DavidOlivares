@@ -61,12 +61,17 @@ public class MainActivity extends AppCompatActivity {
 
         btnEnviar.setOnClickListener(v ->{
 
-            dbsqLite.AgregarMensaje(mensaje.getText().toString());
+            String msg = mensaje.getText().toString();
+            if(msg.isEmpty()){
 
-            root.push().setValue(new MensajeEnviar(mensaje.getText().toString(), ServerValue.TIMESTAMP));
-            mensaje.setText("");
+                Toast.makeText(this,getString(R.string.errorVacio), Toast.LENGTH_SHORT).show();
 
+            }else {
 
+                dbsqLite.AgregarMensaje(mensaje.getText().toString());
+                root.push().setValue(new MensajeEnviar(mensaje.getText().toString(), ServerValue.TIMESTAMP));
+                mensaje.setText("");
+            }
         });
         cerrarSesion.setOnClickListener(v->{
             FirebaseAuth.getInstance().signOut();
