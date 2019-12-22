@@ -1,0 +1,21 @@
+<resources>
+<string name="app_name">Solemne3</string>
+<string name="nombre">Nombre</string>
+<string name="email">Email</string>
+<string name="pass">Password</string>
+
+<string name="btnLogin">Iniciar Sesión</string>
+<string name="btnRegistro">Registrarte</string>
+<string name="btnEnviar">Enviar</string>
+
+<string name="errorLogin">Usuario y/o password incorrecto(s).</string>
+<string name="errorRegistro">Los campos no puede estar vacios.</string>
+<string name="Login">Inicio Sesión</string>
+<string name="txtRegistrar1">       ¿No tienes una cuenta?</string>
+<string name="txtRegistrar2">Entonces registrate pulsando el siguiente botón.</string>
+<string name="registro">Registro Usuario</string>
+<string name="txtRegEmail">Ingresa tu email</string>
+<string name="txtRegPass">Ingresa tu contraseña</string>
+<string name="txtRegistro1">¿Ya tienes una cuenta?</string>
+<string name="txtRegistro2">Entonces inicia tu sesión pulsando el siguiente botón</string>
+</resources>

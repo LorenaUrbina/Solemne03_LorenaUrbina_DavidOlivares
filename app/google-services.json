@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "586582766782",
+    "firebase_url": "https://solemne03-11ad8.firebaseio.com",
+    "project_id": "solemne03-11ad8",
+    "storage_bucket": "solemne03-11ad8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586582766782:android:88e868a6a984b704605aef",
+        "android_client_info": {
+          "package_name": "com.example.solemne03_lorenaurbina_davidolivares"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586582766782-23v9o0numsrm3ql1c9r78g1tj5n7buhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.solemne03_lorenaurbina_davidolivares",
+            "certificate_hash": "f1f7d23cb07e1791cebfe027f594c49b6f265c03"
+          }
+        },
+        {
+          "client_id": "586582766782-3ocbm43ddc9ef33pput45rtns2a6qvk5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-VQ1tIGN-RjWnSqc2FoUZjPCIGIYne8o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586582766782-3ocbm43ddc9ef33pput45rtns2a6qvk5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
